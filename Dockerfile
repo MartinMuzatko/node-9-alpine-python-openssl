@@ -13,4 +13,5 @@ RUN apk add --no-cache \
         sqlite \
         openssl
         
-RUN npm install --quiet node-gyp -g
+RUN npm install -g node-gyp
+RUN npm install -g node-sass
