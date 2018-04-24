@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM blairguk/node-sass-alpine
 
 RUN apk add --no-cache \
         binutils-gold \
@@ -14,4 +14,3 @@ RUN apk add --no-cache \
         openssl
         
 RUN npm install -g node-gyp
-RUN npm install -g node-sass
