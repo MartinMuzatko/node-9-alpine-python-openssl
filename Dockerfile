@@ -10,6 +10,6 @@ RUN apk add --no-cache \
         linux-headers \
         make \
         python \
-        openssl \
+        openssl
         
 RUN npm install --quiet node-gyp -g
