@@ -10,6 +10,9 @@ RUN apk add --no-cache \
         linux-headers \
         make \
         python \
+        sqlite \
         openssl
+
+RUN alias sqlite3 = sqlite
         
 RUN npm install --quiet node-gyp -g
